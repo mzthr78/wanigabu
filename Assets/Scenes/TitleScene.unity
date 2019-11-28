@@ -1335,8 +1335,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1337898144}
-        m_MethodName: OnPointerClick
+      - m_Target: {fileID: 1924649516}
+        m_MethodName: OnStartClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1996,6 +1996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1924649515}
   - component: {fileID: 1924649514}
+  - component: {fileID: 1924649516}
   m_Layer: 0
   m_Name: TitleController
   m_TagString: Untagged
@@ -2113,6 +2114,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1924649516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924649513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de61e954f77e84715a217b9b3cc0e92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinSE: {fileID: 8300000, guid: 4001ae3d02ad54ed9987152307cbc8fe, type: 3}
+  StartButton: {fileID: 1337898140}
+  CreditText: {fileID: 2055604503}
 --- !u!1 &2055604501
 GameObject:
   m_ObjectHideFlags: 0
